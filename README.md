@@ -1,4 +1,4 @@
-#Random Thing Generator
+#Random-Thing-Generator
 
 Requirments:
   1. Python
