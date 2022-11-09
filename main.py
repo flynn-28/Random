@@ -20,6 +20,9 @@ ele = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron', 'Carbon', 'Nitroge
 
 pas = sym + let + num 
 
+hello = 9
+b = 2
+
 randNum = random.sample(num, 1)
 randNum2 = random.sample(num, 2)
 randLet = random.sample(let, 1)
@@ -44,7 +47,6 @@ resultSym = ''.join(str(item) for item in randSym)
 resultEle = ''.join(str(item) for item in randEle)
 resultPas = ''.join(str(item) for item in randPas)
 
-
 print("Random Number (0-9): " +  resultNum)
 print("Random 2 Digit Number (0-99): " +  resultNum2)
 print("Random Letter (a-z): " +  resultLet)
@@ -55,4 +57,22 @@ print("Random Color: " +  resultCol)
 print("Random State(US): " +  resultSte)
 print("Random Symbol: " +  resultSym)
 print("Random Element: " +  resultEle)
-print("Random  Password (8 Charecters): " + resultPas)
+print("Random Password (8 Charecters): " + resultPas)
+
+q1 = input("Would you like to see the lists? (y/n): ").lower()
+if q1 == 'yes' or q1 == 'y':
+  print(num)
+  print(let)
+  print(die)
+  print(cards)
+  print(coin)
+  print(col)
+  print(ste)
+  print(sym)
+  print(ele)
+  print(pas)
+
+elif q1 == 'no' or q1 == 'n':
+     print("Goodbye!")
+else:
+      print("Not a valid answer! Please choose y, n, yes, or no")
