@@ -20,9 +20,6 @@ ele = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron', 'Carbon', 'Nitroge
 
 pas = sym + let + num 
 
-hello = 9
-b = 2
-
 randNum = random.sample(num, 1)
 randNum2 = random.sample(num, 2)
 randLet = random.sample(let, 1)
